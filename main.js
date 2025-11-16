@@ -1262,37 +1262,5 @@ await getPQ('./pq.jon');
    overlay.style.display = 'none';
   }
  }
- setTimeout(() => {
-  myAlert(
-   "confirmation",
-   "Do you have past questions? (Soft/hardcopies) . Please send it to us💚🎓.",
-   () => {
-    window.open(`https://wa.me/9117624342`, "_blank");
-   }
-  );
- }, 60000);
 });
 
-let  topics = [ {
-  "type": "pageInfo",
-  "kind": "pureOBJ",
-  "course_title": "General Chemistry I",
-  "code": "CHM 130.1",
-  "session": "2022/2023",
-  "topics": [
- "Atomic Theory and Chemical Equations",
- "Atomic Structure and Quantum Theory",
- "Periodic Table",
- "Chemical Bonding",
- "Theory of Chemical Bonding",
- "Chemical Thermodynamics",
- "Gaseous State"
-],
-  "time": "90"
- },
- {
-  "type": "Instruction",
-  "content": "Attempt All Questions"
- }]
-
-  console.log(topics[0].topics.length)
